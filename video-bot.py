@@ -24,10 +24,10 @@ try:
 
     #Login
     email_field = driver.find_element(By.NAME, 'user_login')
-    email_field.send_keys("[email-id]")
+    email_field.send_keys("[email-id]")  #remove square bracs
 
     password_field = driver.find_element(By.NAME, 'user_pwd')
-    password_field.send_keys("[password]")
+    password_field.send_keys("[password]")  #remove square bracs
     time.sleep(4);
 
     # Click the login button
